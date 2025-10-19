@@ -1,0 +1,90 @@
+body {
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.user-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+.user-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  width: 700px;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 2px #e5e7eb;
+}
+
+.user-details {
+  flex: 1;
+}
+
+.user-details h2 {
+  margin: 0 0 4px 0;
+  color: #111827;
+  font-size: 1.5rem;
+}
+
+.designation {
+  color: #4f46e5;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+}
+
+.user-details p:not(.designation) {
+  color: #4b5563;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.connect-button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.connect-button:hover {
+  background-color: #4338ca;
+}
+
+@media (max-width: 768px) {
+  .user-card {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}

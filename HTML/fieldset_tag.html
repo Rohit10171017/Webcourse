@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Registration</title>
+    <link rel="stylesheet" href="../css/fieldset_tag.css" />
+</head>
+
+<body>
+    <h1>Create Your Account</h1>
+    <p class="description">Join thousands of users who trust our platform. Fill out the information below to get
+        started.</p>
+
+    <form>
+        <!-- 
+        Task 1: Add a fieldset here
+        - Wrap all the form fields below in a fieldset element
+        - Add a legend element inside the fieldset with the text "Personal Details"
+      -->
+        <div class="section">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required /><br />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required /><br />
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required />
+            </fieldset>
+        </div>
+
+        <!-- 
+        Task 2: Add a fieldset here
+        - Wrap all the form fields below in a fieldset element
+        - Add a legend element inside the fieldset with the text "Shipping Information"
+      -->
+        <div class="section">
+            <fieldset>
+                <legend>Shipping Information</legend>
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street" required /><br />
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required /><br />
+
+                <label for="zipcode">Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode" required />
+            </fieldset>
+        </div>
+
+        <!-- 
+        Task 3: Add nested fieldsets here
+        1. First, add an outer fieldset that wraps everything in this section
+           - Add a legend with the text "Account Security"
+        2. Then, add an inner fieldset that wraps the username and password fields
+           - Add a legend with the text "Set Your Credentials"
+      -->
+        <div class="section">
+            <fieldset>
+                <legend>Account Security</legend>
+                <fieldset>
+                    <legend>Set Your Credentials</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required /><br />
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required />
+                </fieldset>
+            </fieldset>
+        </div>
+
+        <div class="button-container">
+            <button type="submit">Create Account</button>
+        </div>
+    </form>
+</body>
+
+</html>

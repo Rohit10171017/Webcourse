@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width,initial-scale=1.0" />
+    <title>Media Tags</title>
+</head>
+
+<body>
+    <img src="../images/space1.png" alt="space" width="40%" />
+    <br />
+    <h3>Space sound</h3>
+    
+    <!-- To add multiple sources we use source tag inside audio tag . -->
+
+    <audio controls>
+        <source src="../audio/space.mp3" type="audio/mp3" />
+    </audio>
+    <br />
+
+    <!-- if only one sources we can also use like below -->
+
+    <audio src="../audio/space.mp3" controls>Space sound</audio>
+
+    <!-- we can use "loop" attribute , autoplay,preload and etc -->
+
+
+    <!-- we can use <track> tag-->
+    <!-- <audio controls>
+  <source src="song.mp3" type="audio/mp3">
+  <track src="captions_en.vtt" kind="captions" srclang="en" label="English">
+  <track src="captions_es.vtt" kind="subtitles" srclang="es" label="Spanish">
+</audio> -->
+</body>
+
+</html>

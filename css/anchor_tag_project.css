@@ -1,0 +1,71 @@
+/* Common styles */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+/* Index page styles */
+.adventure-card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  transition: transform 0.2s;
+}
+
+.adventure-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Mountain page styles */
+.adventure-section {
+  background: #e8f4ff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* Ocean page styles */
+.ocean-zone {
+  background: #e0f7ff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.fact-box {
+  border-left: 3px solid #0099cc;
+  padding-left: 15px;
+  margin: 15px 0;
+  background: #f8fcff;
+}
+
+/* Navigation styles - used across all pages */
+.navigation {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
