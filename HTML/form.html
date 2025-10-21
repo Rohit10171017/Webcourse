@@ -8,18 +8,20 @@
 <body>
     <h1>Form Tag</h1>
     <form action="">
-        <input type="text" title="name" placeholder="Name">
+        <input type="text" title="name" placeholder="Name" name="name">
         <br>
-        <input type="password" title="password" placeholder="Password">
+        <input type="password" title="password" placeholder="Password" name="password">
         <br>
-        <input type="email" title="email" placeholder="email">
+        <input type="email" title="email" placeholder="email" name="email">
         <br>
-        <input type="file" placeholder="File"> <br>
+        <input type="file" placeholder="File" name="file"> <br>
         <label for="input">Male</label> <input type="radio" title="tick" name="gender">
         <label for="input">Female</label> <input type="radio" title="tick" name="gender"> <br>
-        <input type="color" title="choose color">
+        <input type="color" title="choose color" name="color">
         <input type="submit"> <!--we can also use button tag for this-->
         <label for="input">Remember Me</label><input type="checkbox" title="tick/untick">
+        <br>
+        <input type="number" placeholder="enter a number" name="number" step="2">
     </form>
 </body>
 </html>
