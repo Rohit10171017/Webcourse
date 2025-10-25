@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>HTML Target Attribute Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h2 { color: #333; }
+    iframe { border: 2px solid #555; margin: 10px 0; }
+    a { display: block; margin: 5px 0; }
+  </style>
+</head>
+<body>
+
+  <h1>HTML Target Attribute Demo</h1>
+
+  <!-- _self Example -->
+  <h2>_self (Open in same tab)</h2>
+  <a href="https://www.example.com" target="_self">Go to Example.com (_self)</a>
+
+  <!-- _blank Example -->
+  <h2>_blank (Open in new tab)</h2>
+  <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Go to Google (_blank)</a>
+
+  <!-- _top Example -->
+  <h2>_top (Open in full window)</h2>
+  <iframe src="about:blank" name="nestedFrame" width="300" height="150"></iframe>
+  <a href="https://www.wikipedia.org" target="_top">Open Wikipedia in full window (_top)</a>
+
+  <!-- _parent Example -->
+  <h2>_parent (Open in parent frame)</h2>
+  <iframe src="about:blank" name="childFrame" width="300" height="150"></iframe>
+  <a href="https://www.github.com" target="_parent">Open GitHub in parent frame (_parent)</a>
+
+  <!-- Named Frame Example -->
+  <h2>Named Frame (Open in a specific frame)</h2>
+  <iframe src="about:blank" name="myFrame" width="400" height="200"></iframe>
+  <a href="https://www.stackoverflow.com" target="myFrame">Open StackOverflow in myFrame</a>
+  <a href="https://www.github.com" target="myFrame">Open GitHub in myFrame</a>
+
+</body>
+</html>
