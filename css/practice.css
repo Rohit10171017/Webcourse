@@ -1,6 +1,50 @@
+body{
+    background-image:url(https://hips.hearstapps.com/hmg-prod/images/ginger-maine-coon-kitten-running-on-lawn-in-royalty-free-image-1719608142.jpg?crop=1xw:0.84415xh;0,0.185xh);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
 h1{
     background-color: blanchedalmond;
     text-align: center;
     color: crimson;
 }
 /* write comment here */
+#unique{
+    background-color: rgba(65, 78, 32, 0.6);
+    text-align: center;
+    display: inline;
+
+}
+#cat{
+    background-color: rgb(45, 56, 67) ;
+    text-align: center;
+}
+
+.main{
+    background-color: aqua;
+    text-align: center;
+    color: bisque;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.smain{
+    background-color: darkkhaki;
+    text-align: center;
+    color: firebrick;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Grouping slector */
+.main,.smain{
+    border: solid red;
+}
+/* Descendent selector(space) */ 
+p span{
+    color: rgb(121, 3, 20);
+}
+#image{
+    opacity: 0.6;
+}
+
