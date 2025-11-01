@@ -1,0 +1,11 @@
+// Key- vaue pair rules
+
+- key must be unique, if duplicate key is provided , it will update the existing key
+- sequence of keys , the order of keys does not matter in objects
+
+//characterstics of objects
+
+- inefficient for looping compared to arrays (higher Time Complexity)
+- comma separation: Just like arrays objects key value pair are separated by comma (,)
+- key behaviour : keys are assumed to e string , Java Script converts nonstring keys into string automatically
+
