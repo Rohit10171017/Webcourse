@@ -1,0 +1,3 @@
+(function(){
+    console.log("THIS IS IIFE FUNCTION AND CAN BE EXUCUTED ONLY ONCE IN A LIFE TIME");
+})();
