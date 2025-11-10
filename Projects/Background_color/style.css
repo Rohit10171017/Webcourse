@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.task-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
+}
+
+.task-card {
+  width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.task-card h3 {
+  margin-bottom: 8px;
+  color: rgb(51, 51, 51);
+}
+
+.task-card p {
+  color: rgb(102, 102, 102);
+}
+
+/* Priority Colors */
+.high-priority {
+    background-color: rgb(255, 154, 154);
+}
+
+.medium-priority {
+    background-color: rgb(255,210,128);
+}
+
+.low-priority {
+    background-color: rgb(144,238,144);
+}
+
+.completed {
+    background-color: rgb(224,224,224);
+}
