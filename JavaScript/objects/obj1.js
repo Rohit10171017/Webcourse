@@ -12,4 +12,5 @@ console.log(typeof obj);
 let obj2 = {
     name : "Jupiter",
 }
-console.log(obj2 instanceof Object); // it tells if an obj2 is an object. (Note : arrays and functions are also objects)
+console.log(obj2 instanceof Object);
+console.table(user) // it tells if an obj2 is an object. (Note : arrays and functions are also objects)
