@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Size</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Font Sizes</h1>
+
+      <section class="unit-demo">
+        <h2>Pixels (px) - Static Units</h2>
+        <p class="px-text">This text is 16px - The standard size</p>
+        <p class="px-text-large">This text is 24px - Larger!</p>
+      </section>
+
+      <section class="unit-demo">
+        <h2>REM - Root EM Units</h2>
+        <p class="rem-text">This text is 1rem - Relative to root</p>
+        <p class="rem-text-large">This text is 1.5rem - Bigger!</p>
+      </section>
+
+      <section class="unit-demo nested-demo">
+        <h2>EM - Parent-relative Units</h2>
+        <div class="parent">
+          Parent (1.2em)
+          <div class="child">
+            Child (1.2em of parent)
+            <div class="grandchild">Grandchild (1.2em of child)</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="unit-demo">
+        <h2>Viewport Units</h2>
+        <p class="vw-text">This text scales with viewport width!</p>
+      </section>
+    </div>
+  </body>
+</html>

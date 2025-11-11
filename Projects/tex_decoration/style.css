@@ -1,0 +1,172 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  line-height: 1.6;
+  color: #2d3748;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.header-note {
+  color: #718096;
+  /* Set the text decoration to wavy underline */
+  text-decoration: wavy underline;
+}
+
+/* Book card styles */
+.book-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #718096;
+  margin-bottom: 1rem;
+  /* Set the text decoration to underline */
+  text-decoration: underline;
+}
+
+.book-title {
+  font-size: 1.8rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+  /* Set the text decoration to underline overline */
+  text-decoration: underline overline;
+}
+
+.author {
+  color: #718096;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/* Book details styles */
+.book-details {
+  margin-bottom: 1.5rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.original-price {
+  color: #a0aec0;
+  margin-left: 0.5rem;
+  /* Set the text decoration to line-through */
+  text-decoration: line-through;
+}
+
+.status {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.in-stock {
+  color: #48bb78;
+  /* Set the text decoration to wavy underline */
+  text-decoration: wavy underline;
+}
+
+.out-of-stock {
+  display: none;
+  color: #f56565;
+  /* Set the text decoration to wavy underline */
+  text-decoration: wavy underline;
+}
+
+/* Categories styles */
+.categories {
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+  background-color: #ebf8ff;
+  color: #4299e1;
+  border-radius: 15px;
+  /* Set the text decoration to none */
+  text-decoration: none;
+}
+
+.tag:hover {
+  /* Set the text decoration to underline */
+  text-decoration: underline;
+}
+
+/* Description styles */
+.description {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+/* Action links styles */
+.actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.actions a {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  /* Set the text decoration to none */
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.primary-link {
+  background-color: #4299e1;
+  color: white;
+}
+
+.primary-link:hover {
+  /* Set the text decoration to underline */
+  text-decoration: underline;
+}
+
+.secondary-link {
+  color: #4299e1;
+  /* Set the text decoration to underline */
+  text-decoration: underline;
+}
+
+.secondary-link:hover {
+  /* Set the text decoration to none */
+  text-decoration: none;
+}
+
+.disabled-link {
+  color: #a0aec0;
+  cursor: not-allowed;
+  /* Set the text decoration to wavy underline */
+  text-decoration: wavy underline;
+}

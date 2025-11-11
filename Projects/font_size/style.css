@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+  background-color: #f0f2f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  /* Set the font size using rem units */
+  font-size: 2.5rem;
+}
+
+.unit-demo {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+h2 {
+  color: #3498db;
+  margin-bottom: 1rem;
+  /* Set the font size using rem units */
+  font-size: 1.5rem;
+}
+
+.px-text {
+  /* Set the font size using pixels */
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+.px-text-large {
+  /* Set the font size using pixels */
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.rem-text {
+  /* Set the font size using rem units */
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.rem-text-large {
+  /* Set the font size using rem units */
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.nested-demo .parent {
+  /* Set the font size using em units */
+  font-size: 1.2em;
+  color: #e74c3c;
+  padding: 1rem;
+  background-color: rgba(231, 76, 60, 0.1);
+  border-radius: 4px;
+}
+
+.nested-demo .child {
+  /* Set the font size using em units */
+  font-size: 1.2em;
+  color: #e67e22;
+  margin-left: 1rem;
+  padding: 1rem;
+  background-color: rgba(230, 126, 34, 0.1);
+  border-radius: 4px;
+}
+
+.nested-demo .grandchild {
+  /* Set the font size using em units */
+  font-size: 1.2em;
+  color: #f1c40f;
+  margin-left: 1rem;
+  padding: 1rem;
+  background-color: rgba(241, 196, 15, 0.1);
+  border-radius: 4px;
+}
+
+/* Viewport width example */
+.vw-text {
+  /* Set the font size using vw units */
+  font-size: 3vw;
+  color: #9b59b6;
+  text-align: center;
+}

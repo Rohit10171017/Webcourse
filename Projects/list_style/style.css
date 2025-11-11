@@ -1,0 +1,105 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f8f9fa;
+  color: #2d3748;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #718096;
+}
+
+/* Section styles */
+section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  background: linear-gradient(to right ,white,black);
+}
+
+h2 {
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Currently Reading List */
+.reading-list {
+  /* Set list-style-type */
+  list-style-type: square;
+  margin-left: 1.5rem;
+  color: #4a5568;
+}
+
+.reading-list li {
+  /* Set margin-bottom and padding-left */
+  margin-bottom: 0.75rem;
+}
+
+/* Reading Goals List */
+.goals-list {
+  /* Set list-style-type */
+  list-style-type: decimal;
+  margin-left: 1.5rem;
+  color: #4a5568;
+}
+
+.goals-list li {
+  /* Set margin-bottom and padding-left */
+  margin-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+/* Genres List */
+.genres-list {
+  /* Set list-style-type */
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #4a5568;
+}
+
+.genres-list > li {
+  /* Set margin-bottom */
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.subgenre-list {
+  /* Set list-style-type */
+  list-style-type: circle;
+  /* Set margin-left and margin-top */
+  margin-left: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.subgenre-list li {
+  font-weight: normal;
+  /* Set margin-bottom */
+  margin-bottom: 0.25rem;
+}
