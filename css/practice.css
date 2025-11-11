@@ -6,4 +6,9 @@
     font-weight: 600;
     letter-spacing: 2px;
     line-height: 2.4cm;
+    text-align: center;
+}
+body{
+    text-decoration: underline aqua wavy 4px; 
+    text-transform: capitalize ;
 }
