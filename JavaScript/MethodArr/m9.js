@@ -15,7 +15,7 @@ array.splice(2,0,"pinapple","papaya"); // here 2 indicates starting index and 0 
 console.log(array);
 
 //replacing
-let removed = array.splice(2,2,"WaterMelon","Pomogranade"); // it also returns removed elements in form og array
+let removed = array.splice(2,2,"WaterMelon","Pomogranade"); // it also returns removed elements in form of array
 
 console.log(array); // we can see the replacement in o/p
 

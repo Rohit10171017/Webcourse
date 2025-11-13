@@ -1,24 +1,16 @@
-#para{
-    color: white;
-    font-family:'Roboto';
-    font-size: medium;
-    font-style: italic;
-    font-weight: 600;
-    letter-spacing: 2px;
-    line-height: 2.4cm;
-    text-align: center;
-    text-shadow: 2px 1px 2px red,2px 1px 4px yellow;
-    text-transform: capitalize;
-}
-table{
-    border: "1";
-    padding: auto;
-    color: white;
+div{
     background-color: blueviolet;
-    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
     text-align: center;
-}
-body
-{
-    background-color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border: solid red 2px;
+    border-radius: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
 }
