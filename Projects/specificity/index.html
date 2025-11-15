@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Specificity Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">   
+      <!-- Basic user card -->
+      <div class="user-card">
+        <h2>Basic User</h2>
+        <p>Styled by class only</p>
+      </div>
+
+      <!-- Admin user card -->
+      <div class="user-card admin">
+        <h2>Admin User</h2>
+        <p>Styled by class + class</p>
+      </div>
+
+      <!-- Current user card -->
+      <div class="user-card admin" id="current-user">
+        <h2>Current User</h2>
+        <p>Styled by ID (highest specificity)</p>
+      </div>
+    </div>
+  </body>
+</html> 

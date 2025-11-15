@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.outline-box {
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.outline-box h2 {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Solid outline */
+.solid {
+  /* Set outline and outline-offset */
+  outline: 2px solid #ff6b6b;
+  outline-offset: 10px;
+}
+
+/* Dashed outline */
+.dashed {
+  /* Set outline and outline-offset */
+  outline: 3px dashed #4ecdc4;
+  outline-offset: 10px;
+}
+
+/* Dotted outline */
+.dotted {
+ /* Set outline and outline-offset */
+ outline: 4px dotted #45b7d1;
+ outline-offset: 10px;
+}
+
+/* Double outline */
+.double {
+  /* Set outline and outline-offset */
+  outline: 6px double #96ceb4;
+  outline-offset: 10px;
+}
+
+/* Groove outline */
+.groove {
+  /* Set outline and outline-offset */
+  outline: 5px groove #ffeead;
+  outline-offset: 10px;
+}
+
+/* Ridge outline */
+.ridge {
+  /* Set outline and outline-offset */
+  outline: 5px ridge #ff9999;
+  outline-offset: 10px;
+}
+

@@ -1,0 +1,115 @@
+/* Reset and base styles */
+* {
+  /* Set margin and padding */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  /* Set margin and padding */
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #6366f1;
+  color: white;
+  /* Set padding */
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.product-details {
+  /* Set padding */
+  padding: 24px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: #1a1a1a;
+  /* Set margin-bottom */
+  margin-bottom: 12px;
+}
+
+.product-meta {
+  display: flex;
+  gap: 12px;
+  /* Set margin-bottom */
+  margin-bottom: 16px;
+  font-size: 0.875rem;
+}
+
+.category {
+  color: #6366f1;
+}
+
+.stock {
+  color: #16a34a;
+}
+
+.description {
+  color: #4b5563;
+  /* Set margin-bottom */
+  margin-bottom: 20px;
+  font-size: 0.9375rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* Set margin-bottom */
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.original-price {
+  color: #6b7280;
+  text-decoration: line-through;
+}
+
+.buy-button {
+  width: 100%;
+  background: #6366f1;
+  color: white;
+  border: none;
+  /* Set padding */
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
