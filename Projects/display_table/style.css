@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f7fa;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.table-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Grade Table */
+.grade-table {
+  /* Set display here */
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.table-header {
+ /* Set display here */
+ display: table-row;
+  background-color: #34495e;
+  color: white;
+  font-weight: bold;
+}
+
+.table-row {
+ /* Set display here */
+ display: table-row;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.header-cell {
+  /* Set display here */
+
+  display: table-cell;
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 2px solid #2c3e50;
+}
+
+.table-cell {
+  /* Set display here */
+  display: table-cell;
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Quick Stats Table */
+.quick-stats {
+ /* Set display here */
+ display: inline-table;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  margin-top: 1rem;
+  background-color: #ebf5fb;
+}
+
+.stats-row {
+  /* Set display here */
+  display: table-row;
+}
+
+.stats-cell {
+  /* Set display here */
+  display: table-cell;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #bde0f3;
+}
+
+.stats-row:last-child .stats-cell {
+  border-bottom: none;
+}
+
+.stats-cell:first-child {
+  font-weight: bold;
+  color: #2980b9;
+}
+

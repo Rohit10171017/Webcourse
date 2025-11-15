@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visibility vs Display Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Message Box</h1>
+      
+      <div class="messages-list">
+        <div class="message">
+          <span class="number">1</span>
+          This is the first message box (normal)
+        </div>
+
+        <div class="message visibility-hidden">
+          <span class="number">2</span>
+          This message uses visibility: hidden (space is preserved)
+        </div>
+
+        <div class="message">
+          <span class="number">3</span>
+          This is the third message box (normal)
+        </div>
+
+        <div class="message display-none">
+          <span class="number">4</span>
+          This message uses display: none (no space taken)
+        </div>
+
+        <div class="message">
+          <span class="number">5</span>
+          This message shows that #4 is completely removed from layout
+        </div>
+      </div>
+
+     
+    </div>
+  </body>
+</html> 
