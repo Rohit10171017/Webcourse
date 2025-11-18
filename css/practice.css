@@ -48,3 +48,109 @@
   background: yellow;
   padding: 10px;
 }
+
+
+#Butt{
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  width: 80px;
+  background-color: brown;
+}
+p{
+  display: inline-block;
+  margin: 20px;
+  border: 5px solid green;
+  border-radius: 10px;
+  padding: 20px 20px;
+  outline: 5px solid rebeccapurple;
+  outline-offset: 4px;
+  text-align: center;
+}
+p:hover{
+background-color: aquamarine;
+color: black;
+}
+#Butt:hover{
+  background-color: aqua;
+}
+#search:focus{
+  outline: none;
+}
+
+ul{
+  display: flex;
+}
+li{
+  margin: 5px;
+}
+/* a{
+  text-decoration: none;
+  border: 2px solid pink;
+  border-radius: 2px;
+} */
+
+ul>li:nth-of-type(3) a
+{
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.sticky::after{
+  content: " AFTER";
+}
+
+.sticky::before{
+  content: "BEFORE ";
+}
+
+#moon{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(210, 29, 71);
+  position: relative;
+}
+
+
+.crater{
+  content: "";
+  display: inline-block;       /* MUST be block */
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: chocolate;
+  position: relative;
+  top: 3px;
+  left: 10px;
+  z-index: 1;
+  margin: 9px;     
+}
+
+.crater::before{
+  content: "";
+  width: 10px;
+  height: 5px;
+  background-color: black;
+  left: -10px;
+  top: 12.5px;
+  position: absolute;
+
+}
+
+.crater::after{
+  content: "";
+  width: 10px;
+  height: 5px;
+  background-color: black;
+  left: 30px;
+  top: 12.5px;
+  position: absolute;
+}
+
+p::first-line{
+  background-color: red;
+}
+
