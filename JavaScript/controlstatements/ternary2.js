@@ -41,6 +41,7 @@ const message =
     ? "You need to work harder. Consider getting help."
 
     : "Failed. Please meet with your teacher for support.";
+
 try {
   console.log(`Score: ${selectedScore}`);
   console.log(`Grade: ${grade}`);

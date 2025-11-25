@@ -15,10 +15,10 @@ const obj={
     occupation :"student",
 }
 
-let array = Object.entries(obj); // makes 2D array
+let array = Object.entries(obj); // makes 2D array 
 console.log(array);
 
 for(const value of Object.entries(obj)) // value is an array 
 {
-    console.log(value)
+    console.log(value);
 }
