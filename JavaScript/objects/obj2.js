@@ -12,9 +12,13 @@ let obj2 = {
 }
 console.log(obj2);
 //APPROACH 2
-const obj = new Object();
-obj.name = 'Universe';
-obj.age = '13.8 Billion';
+const obj = new Object(
+    {
+    name :'Universe',
+    age :'13.8 Billion',
+    }
+);
+
 console.log(obj);
 
 //approach 3
