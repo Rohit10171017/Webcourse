@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .container {
+        perspective: 800px; /* makes 3D effects look real */
+      }
+
+      .card {
+        width: 300px;
+        height: 160px;
+        background: linear-gradient(45deg, #ff0077, #7700ff);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        color: #fff;
+        border-radius: 15px;
+        transition: transform 0.5s ease, box-shadow 0.3s ease;
+        transform: skewX(0deg);
+      }
+
+      .card:hover {
+        transform: skewX(20deg) scale(1.1) rotateY(10deg);
+        box-shadow: 0 0 50px rgba(255, 0, 153, 0.7);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">Hover Me 😎</div>
+    </div>
+  </body>
+</html>
