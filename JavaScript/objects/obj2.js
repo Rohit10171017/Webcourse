@@ -24,7 +24,7 @@ console.log(obj);
 //approach 3
 
 const obj3 = Object.create({name:"Rohit",age:20,})
-
+obj3.name = "xyz";
 console.log(obj3);
 
 let obj4 = {

@@ -8,4 +8,4 @@ console.log("Division",a/b);
 console.log("Reminder is ",a%9);
 console.log("Increament is ",a++,++a);
 console.log("Decreament is ",b--,--b);
-console.log("Exponential : ",5**3);
+console.log("Exponential : ",5**3); 
