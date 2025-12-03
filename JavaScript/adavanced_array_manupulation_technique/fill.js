@@ -6,7 +6,7 @@ arr.fill(0); //it replaces all the elements of the array with 0
 
 console.log(arr); 
 
-arr.fill(5,3,8) // it replaces all the elements fron starting idx 3 to idx 7 with element 5
+arr.fill(5,3,8) // it replaces all the elements from starting idx 3 to idx 7 with element 5
 
 console.log(arr);
 

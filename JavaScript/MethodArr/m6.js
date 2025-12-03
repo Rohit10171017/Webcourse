@@ -27,7 +27,6 @@ function addPrint(document) {
   console.log(`Added to queue: ${document}`);
 }
 
-
 function processPrint()
 {
     const printed = printQueue.shift();
