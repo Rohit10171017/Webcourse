@@ -1,0 +1,5 @@
+let a = 7,b = 8;
+
+[a,b] = [b,a];
+
+console.log(a,b);
