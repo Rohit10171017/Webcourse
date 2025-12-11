@@ -1,0 +1,12 @@
+
+
+// Windows.history.back(); -> This cmd is to go back from current page of website to previous stage
+
+//  Windows.history.forward(); -> This cmd is to go to next page of the website
+
+// Windows.location.reaload(); -> This cmd is to reaload the page
+
+
+//setTimeout(function,time); => This is simple syntax . We can also write like setTimeout(function,time,arg1,arg2.....);
+
+//setInterval(function,time);
