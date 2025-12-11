@@ -9,3 +9,9 @@ let arr2 = ["abc","rfg","rgb","roh","abd"];
 let flag2 = arr2.every((str) => str.length == 3);
 
 console.log(flag2);
+
+let flag3 = arr.every(function(a){
+    return a % 1 === 0;
+});
+
+console.log(flag3);

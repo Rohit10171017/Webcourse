@@ -1,4 +1,4 @@
-let str = "String theory is kind is wierd";
+let str = "String theory is kind a wierd";
 
 let idx = str.indexOf("is");
 
