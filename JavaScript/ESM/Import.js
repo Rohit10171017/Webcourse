@@ -4,7 +4,7 @@ console.log(divide(4,2));
 
 console.log(reminder(40));
 
-//defauls import
+//default import
 
 import workdone from './Export.js';
 
