@@ -20,5 +20,5 @@ console.log(array);
 
 for(const value of Object.entries(obj)) // value is an array 
 {
-    console.log(value);
+    console.log(value[1]);
 }
