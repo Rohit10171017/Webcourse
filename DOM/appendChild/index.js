@@ -24,8 +24,5 @@ let newP = document.createElement("p");
 
 let nextline = document.createElement("br");
 
-document.body.appendChild(nextline)
-document.body.appendChild(document.createTextNode("Hello ,Ton-68"))
-
-
-
+document.body.appendChild(nextline);
+document.body.appendChild(document.createTextNode("Hello ,Ton-68"));
