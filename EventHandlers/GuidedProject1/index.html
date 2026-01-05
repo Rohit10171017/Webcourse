@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #pagebody{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #toggleId{
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+        }
+        .light{
+            background-color: black;
+            color: white;
+        }
+        .dark{
+            background-color: white;
+            color: black;
+            /* box-shadow: 0px 0px 15px rgba(255,255,255, 0.5); */
+        }
+    </style>
+</head>
+<body id="pagebody">
+    <button id="toggleId" class="light" onclick="toggle()">Dark Mode</button>
+    <script src="index.js"></script>
+</body>
+</html>

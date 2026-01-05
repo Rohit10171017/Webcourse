@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inpContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #inpId{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            width: 500px;
+            height: 400px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="inpContainer">
+    <form action="inp" id="inpId">
+        <input type="text" placeholder="Enter Your Name" id="name"> 
+        <input type="email" placeholder="Enter your Email" id="mail">
+        <input type="tel" placeholder="Enter yout Mob.No" id="no"> 
+        <label for="gender">Male</label><input type="radio" name="gender" class="gen">
+        <label for="gender">Female</label><input type="radio" name="gender" class="gen">
+    </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
