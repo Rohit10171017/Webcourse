@@ -10,4 +10,3 @@ for(let i=0;i<arr.length;i++)
 {
     console.log(arr[i]); // inbetween 'true' and 5 all will be undefined
 }
-

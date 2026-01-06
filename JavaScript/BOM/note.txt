@@ -10,3 +10,5 @@
 //setTimeout(function,time); => This is simple syntax . We can also write like setTimeout(function,time,arg1,arg2.....);
 
 //setInterval(function,time);
+
+

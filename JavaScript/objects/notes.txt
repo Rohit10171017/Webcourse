@@ -1,4 +1,4 @@
-// Key- vaue pair rules
+// Key- value pair rules
 
 - key must be unique, if duplicate key is provided , it will update the existing key
 - sequence of keys , the order of keys does not matter in objects
